@@ -1,13 +1,48 @@
-body{
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 
-.containerOneMovie{
-    display: flex;
-    flex-direction: row;
-
+.containerOneMovie {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
 }
 
+.allMovieData {
+  margin-left: 20px;
+}
+
+.movieTitleRating {
+  display: flex;
+}
+
+.movieMeta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+
+.movieDescription {
+  display: flex;
+  flex-direction: column;
+  width: 342px;
+  height: 60px;
+}
+
+.moviePoster {
+  width: 120px;
+  height: 148px;
+}
+
+.watchlistBtn {
+  height: 20px;
+  width: 90px;
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: white;
+}
